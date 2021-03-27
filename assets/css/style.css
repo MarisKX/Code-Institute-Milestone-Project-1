@@ -76,13 +76,6 @@ body{
   height: inherit;
 }
 
-.navbar-toggler{
-  color: white;
-}
-
-#navbarNavAltMarkup{
-  height: 100%;
-}
 
 #company-moto{
   font-size: 130%;
@@ -97,6 +90,7 @@ body{
   left: 100px;
   position: absolute;
 }
+
 
 /* Responsive styles */
 
@@ -113,6 +107,8 @@ body{
    }
    #main-nav-container{
      display: none;
+     margin-left: 0;
+     margin-right: 0;
    }
    .navbar-expand-xl{
      height: 20px;
@@ -142,6 +138,60 @@ body{
      top: 280px;
      padding: 0px 10px 0px 5px;
     }
+
+    /* "Burger" menu styles */
+
+    .navbar-toggler{
+     color: white;
+    }
+
+    .fa-window-close{
+     display: none;
+    }
+
+    .show-menu {
+    float: right;
+    width: 25vh;
+    height: 20vh;
+    background: #393b43;
+    border-radius: 5px;
+    color: #f8f8fc;
+    transform: translateY(-100%);
+    transition: transform 0.5s;
+    list-style: none;
+    padding-top: 1rem;
+    margin-right: -2vh;
+    margin-top: -18vh;
+    }
+
+    .displayMenu {
+    transform: translateY(0);
+    }
+
+    a {
+    padding: 0;
+    color: #f8f8fc;
+    }
+
+    .item {
+    display: inline;
+    font-size: 1rem;
+    color: #f8f8fc;
+    text-decoration: none;
+    font-weight: 200;
+    line-height: 0.8;
+    }
+
+    .item:hover {
+    text-decoration: none;
+    }   
+    .active{
+        background-color: #f8f8fc;
+        color: #393b43;
+    }
+    
+
+
 }
 /* NOT active only on MOBILE devices */
 
