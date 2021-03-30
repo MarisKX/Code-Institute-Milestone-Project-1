@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Concert+One&display=swap');
 
-/* General styles and main colors */
-
 body{
   font-family: 'Arvo', serif;
 }
@@ -111,47 +109,47 @@ body{
 
 #home-upper{
   background: linear-gradient(to right, rgba(57, 59, 67, 0.0) 0%, rgba(57, 59, 67, 0.2)25%,rgba(248, 248, 252, 0.8) 40%,rgba(248, 248, 252, 1.0) 45%),
-              url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/zandbergen-mainsection1.jpg) center left no-repeat;
+              url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/home-1.jpg) center left no-repeat;
 }
 
 #home-middle{
   background: linear-gradient(to left, rgba(57, 59, 67, 0.0) 0%, rgba(57, 59, 67, 0.2)25%,rgba(248, 248, 252, 0.8) 40%,rgba(248, 248, 252, 1.0) 45%),
-              url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/home-2.jpg) center right no-repeat;
+              url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/home-2.jpg) center right no-repeat;
 }
 
 #home-lower{
   background: linear-gradient(to right, rgba(57, 59, 67, 0.0) 0%, rgba(57, 59, 67, 0.2)25%,rgba(248, 248, 252, 0.8) 40%,rgba(248, 248, 252, 1.0) 45%),
-              url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/services-1.jpg) center left no-repeat;
+              url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/home-3.jpg) center left no-repeat;
 }
 
 #services-upper{
   background: linear-gradient(to right, rgba(57, 59, 67, 0.0) 0%, rgba(57, 59, 67, 0.2)25%,rgba(248, 248, 252, 0.8) 40%,rgba(248, 248, 252, 1.0) 45%),
-              url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/home-3.jpg) center left no-repeat;
+              url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/services-1.jpg) center left no-repeat;
 }
 
 #services-middle{
   background: linear-gradient(to left, rgba(57, 59, 67, 0.0) 0%, rgba(57, 59, 67, 0.2)25%,rgba(248, 248, 252, 0.8) 40%,rgba(248, 248, 252, 1.0) 45%),
-              url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/services-2.jpg) center right no-repeat;
+              url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/services-2.jpg) center right no-repeat;
 }
 
 #services-lower{
   background: linear-gradient(to right, rgba(57, 59, 67, 0.0) 0%, rgba(57, 59, 67, 0.2)25%,rgba(248, 248, 252, 0.8) 40%,rgba(248, 248, 252, 1.0) 45%),
-              url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/services-3.jpg) center left no-repeat;
+              url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/services-3.jpg) center left no-repeat;
 }
 
 #fleet-upper{
   background: linear-gradient(to right, rgba(57, 59, 67, 0.0) 0%, rgba(57, 59, 67, 0.2)25%,rgba(248, 248, 252, 0.8) 40%,rgba(248, 248, 252, 1.0) 45%),
-              url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/fleet-1.jpg) center left no-repeat;
+              url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/fleet-1.jpg) center left no-repeat;
 }
 
 #fleet-middle{
   background: linear-gradient(to left, rgba(57, 59, 67, 0.0) 0%, rgba(57, 59, 67, 0.2)25%,rgba(248, 248, 252, 0.8) 40%,rgba(248, 248, 252, 1.0) 45%),
-              url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/fleet-2.1.jpg) center right no-repeat;
+              url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/fleet-2.jpg) center right no-repeat;
 }
 
 #fleet-lower{
   background: linear-gradient(to right, rgba(57, 59, 67, 0.0) 0%, rgba(57, 59, 67, 0.2)25%,rgba(248, 248, 252, 0.8) 40%,rgba(248, 248, 252, 1.0) 45%),
-              url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/fleet-3.1.jpg) center left no-repeat;
+              url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/fleet-3.jpg) center left no-repeat;
 }
 
 .description-div{
@@ -193,43 +191,33 @@ ul{
   display: inline-block;
 }
 
-.description-div{
-  text-align: center;
-  margin: 2px 2px 2px 2px;
-  padding: 0px 2px 0px 2px;
+#contact-middle{
+  height: inherit;
 }
 
-.upper-div{
-  float: right;
-  width: 60%;
+#contact-middle-div{
+  height: inherit;
+  width: 50%;
+  margin: 0 auto;
+  float: none;
 }
 
-.middle-div{
+#price-request-form{
+  margin-top: 25px;
+}
+
+.form-label{
   float: left;
-  width: 60%;
+  padding-left: 25px;
 }
 
-.lower-div{
-  float: right;
-  width: 60%;
+#notes{
+  height: 100px;
 }
 
-.main-content-title{
-  font-size: 30px;
-  padding-top: 25px;
-}
-
-.main-content-p, .main-content-li{
-  font-size: 15px;
-}
-
-ul{
-  list-style: none;
-}
-
-.main-content-li:before{
-  content: '✔️';
-  display: inline-block;
+#contact-section{
+  height: auto;
+  margin-bottom: 35px;
 }
 
 /* footer section  */
@@ -309,7 +297,7 @@ ul{
    .main-image{
      height: 400px;
      background: linear-gradient(to right, rgba(57, 59, 67, 1.0) 10%, rgba(57, 59, 67, 0.0)20%,rgba(57, 59, 67, 0.0) 80%,rgba(57, 59, 67, 1.0) 90%),
-                 url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/Actros-nieuw-mobile-v3.jpg) no-repeat right center;
+                 url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/Actros-nieuw-mobile-v3.jpg) no-repeat right center;
      background-size: cover;
    }
    #zao-logo{
@@ -346,45 +334,45 @@ ul{
    }
    #home-upper{
      background: linear-gradient(to right, rgba(248, 248, 252, 0.8) 0%, rgba(248, 248, 252, 0.8)50%, rgba(248, 248, 252, 0.8) 100%),
-                 url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/zandbergen-mainsection1.jpg) left center no-repeat;
+                 url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/home-1.jpg) left center no-repeat;
    }
    #home-middle{
      background: linear-gradient(to right, rgba(248, 248, 252, 0.8) 0%, rgba(248, 248, 252, 0.8)50%, rgba(248, 248, 252, 0.8) 100%),
-                 url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/home-2.jpg) right center no-repeat;
+                 url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/home-2.jpg) right center no-repeat;
    }
    #home-lower{
      background: linear-gradient(to right, rgba(248, 248, 252, 0.8) 0%, rgba(248, 248, 252, 0.8)50%, rgba(248, 248, 252, 0.8) 100%),
-                 url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/home-3.jpg) left center no-repeat;
+                 url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/home-3.jpg) left center no-repeat;
    }
 
    #services-upper{
      background: linear-gradient(to right, rgba(248, 248, 252, 0.8) 0%, rgba(248, 248, 252, 0.8)50%, rgba(248, 248, 252, 0.8) 100%),
-                 url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/home-3.jpg) center left no-repeat;
+                 url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/services-1.jpg) center left no-repeat;
    }
 
    #services-middle{
      background: linear-gradient(to right, rgba(248, 248, 252, 0.8) 0%, rgba(248, 248, 252, 0.8)50%, rgba(248, 248, 252, 0.8) 100%),
-                 url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/services-2.jpg) center right no-repeat;
+                 url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/services-2.jpg) center right no-repeat;
    }
 
    #services-lower{
      background: linear-gradient(to right, rgba(248, 248, 252, 0.8) 0%, rgba(248, 248, 252, 0.8)50%, rgba(248, 248, 252, 0.8) 100%),
-                 url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/services-3.jpg) center left no-repeat;
+                 url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/services-3.jpg) center left no-repeat;
    }
    #fleet-upper{
      background: linear-gradient(to right, rgba(248, 248, 252, 0.8) 0%, rgba(248, 248, 252, 0.8)50%, rgba(248, 248, 252, 0.8) 100%),
-                 url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/fleet-1.jpg) center left no-repeat;
+                 url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/fleet-1.jpg) center left no-repeat;
    }
    #fleet-middle{
      background: linear-gradient(to right, rgba(248, 248, 252, 0.8) 0%, rgba(248, 248, 252, 0.8)50%, rgba(248, 248, 252, 0.8) 100%),
-                 url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/fleet-2.1.jpg) center right no-repeat;
+                 url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/fleet-2.jpg) center right no-repeat;
    }
    #fleet-lower{
      background: linear-gradient(to right, rgba(248, 248, 252, 0.8) 0%, rgba(248, 248, 252, 0.8)50%, rgba(248, 248, 252, 0.8) 100%),
-                 url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/fleet-3.1.jpg) center left no-repeat;
+                 url(hhttps://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/fleet-3.jpg) center left no-repeat;
    }
    .main-content-section{
-     height: 1580px;
+     height: 1590px;
    }
 
    .main-content-div-field{
@@ -402,10 +390,6 @@ ul{
 
 
     /* "Burger" menu styles */
-
-    .navbar-toggler{
-     color: white;
-    }
 
     .fa-window-close{
      display: none;
@@ -463,6 +447,13 @@ ul{
   .navbar-toggler{
     display: none;
   }
+  #burger-btn{
+      display: none;
+  }
+  .navbar-nav{
+      flex-direction: row;
+  }
+  }
 
 /* Active ONLY on large screen PC's */
 
@@ -470,6 +461,21 @@ ul{
   #main-nav-container{
     margin-left: 300px;
     margin-right: 300px;
+  }
+  .description-div{
+    text-align: center;
+    margin: 10px 35px 10px 35px;
+    padding: 20px 55px 20px 55px;
+    height: 300px;
+  }
+  .main-content-section{
+    height: 1050px;
+  }
+
+  .main-content-div-field{
+    height: 350px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 }
 
@@ -502,7 +508,19 @@ ul{
     color: #393b43;
     border-radius: 5px;
   }
-  .collapse:not(.show) {
-  display: inline-block;
-  }  
+
+  .upper-div{
+    float: right;
+    width: 85%;
+  }
+
+  .middle-div{
+    float: left;
+    width: 85%;
+  }
+
+  .lower-div{
+    float: right;
+    width: 85%;
+  }
 }
