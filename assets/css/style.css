@@ -124,6 +124,75 @@ body{
               url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/services-1.jpg) center left no-repeat;
 }
 
+#services-upper{
+  background: linear-gradient(to right, rgba(57, 59, 67, 0.0) 0%, rgba(57, 59, 67, 0.2)25%,rgba(248, 248, 252, 0.8) 40%,rgba(248, 248, 252, 1.0) 45%),
+              url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/home-3.jpg) center left no-repeat;
+}
+
+#services-middle{
+  background: linear-gradient(to left, rgba(57, 59, 67, 0.0) 0%, rgba(57, 59, 67, 0.2)25%,rgba(248, 248, 252, 0.8) 40%,rgba(248, 248, 252, 1.0) 45%),
+              url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/services-2.jpg) center right no-repeat;
+}
+
+#services-lower{
+  background: linear-gradient(to right, rgba(57, 59, 67, 0.0) 0%, rgba(57, 59, 67, 0.2)25%,rgba(248, 248, 252, 0.8) 40%,rgba(248, 248, 252, 1.0) 45%),
+              url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/services-3.jpg) center left no-repeat;
+}
+
+#fleet-upper{
+  background: linear-gradient(to right, rgba(57, 59, 67, 0.0) 0%, rgba(57, 59, 67, 0.2)25%,rgba(248, 248, 252, 0.8) 40%,rgba(248, 248, 252, 1.0) 45%),
+              url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/fleet-1.jpg) center left no-repeat;
+}
+
+#fleet-middle{
+  background: linear-gradient(to left, rgba(57, 59, 67, 0.0) 0%, rgba(57, 59, 67, 0.2)25%,rgba(248, 248, 252, 0.8) 40%,rgba(248, 248, 252, 1.0) 45%),
+              url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/fleet-2.1.jpg) center right no-repeat;
+}
+
+#fleet-lower{
+  background: linear-gradient(to right, rgba(57, 59, 67, 0.0) 0%, rgba(57, 59, 67, 0.2)25%,rgba(248, 248, 252, 0.8) 40%,rgba(248, 248, 252, 1.0) 45%),
+              url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/fleet-3.1.jpg) center left no-repeat;
+}
+
+.description-div{
+  text-align: center;
+  margin: 2px 2px 2px 2px;
+  padding: 0px 2px 0px 2px;
+}
+
+.upper-div{
+  float: right;
+  width: 60%;
+}
+
+.middle-div{
+  float: left;
+  width: 60%;
+}
+
+.lower-div{
+  float: right;
+  width: 60%;
+}
+
+.main-content-title{
+  font-size: 30px;
+  padding-top: 25px;
+}
+
+.main-content-p, .main-content-li{
+  font-size: 15px;
+}
+
+ul{
+  list-style: none;
+}
+
+.main-content-li:before{
+  content: '✔️';
+  display: inline-block;
+}
+
 .description-div{
   text-align: center;
   margin: 2px 2px 2px 2px;
@@ -258,6 +327,79 @@ ul{
      top: 280px;
      padding: 0px 10px 0px 5px;
     }
+    #copyright{
+     margin-left: 45px;
+   }
+   .upper-div{
+     float: right;
+     width: 95%;
+   }
+
+   .middle-div{
+     float: left;
+     width: 95%;
+   }
+
+   .lower-div{
+     float: right;
+     width: 95%;
+   }
+   #home-upper{
+     background: linear-gradient(to right, rgba(248, 248, 252, 0.8) 0%, rgba(248, 248, 252, 0.8)50%, rgba(248, 248, 252, 0.8) 100%),
+                 url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/zandbergen-mainsection1.jpg) left center no-repeat;
+   }
+   #home-middle{
+     background: linear-gradient(to right, rgba(248, 248, 252, 0.8) 0%, rgba(248, 248, 252, 0.8)50%, rgba(248, 248, 252, 0.8) 100%),
+                 url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/home-2.jpg) right center no-repeat;
+   }
+   #home-lower{
+     background: linear-gradient(to right, rgba(248, 248, 252, 0.8) 0%, rgba(248, 248, 252, 0.8)50%, rgba(248, 248, 252, 0.8) 100%),
+                 url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/home-3.jpg) left center no-repeat;
+   }
+
+   #services-upper{
+     background: linear-gradient(to right, rgba(248, 248, 252, 0.8) 0%, rgba(248, 248, 252, 0.8)50%, rgba(248, 248, 252, 0.8) 100%),
+                 url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/home-3.jpg) center left no-repeat;
+   }
+
+   #services-middle{
+     background: linear-gradient(to right, rgba(248, 248, 252, 0.8) 0%, rgba(248, 248, 252, 0.8)50%, rgba(248, 248, 252, 0.8) 100%),
+                 url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/services-2.jpg) center right no-repeat;
+   }
+
+   #services-lower{
+     background: linear-gradient(to right, rgba(248, 248, 252, 0.8) 0%, rgba(248, 248, 252, 0.8)50%, rgba(248, 248, 252, 0.8) 100%),
+                 url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/services-3.jpg) center left no-repeat;
+   }
+   #fleet-upper{
+     background: linear-gradient(to right, rgba(248, 248, 252, 0.8) 0%, rgba(248, 248, 252, 0.8)50%, rgba(248, 248, 252, 0.8) 100%),
+                 url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/fleet-1.jpg) center left no-repeat;
+   }
+   #fleet-middle{
+     background: linear-gradient(to right, rgba(248, 248, 252, 0.8) 0%, rgba(248, 248, 252, 0.8)50%, rgba(248, 248, 252, 0.8) 100%),
+                 url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/fleet-2.1.jpg) center right no-repeat;
+   }
+   #fleet-lower{
+     background: linear-gradient(to right, rgba(248, 248, 252, 0.8) 0%, rgba(248, 248, 252, 0.8)50%, rgba(248, 248, 252, 0.8) 100%),
+                 url(https://raw.githubusercontent.com/MarisKX/Testing-field/master/assets/images/fleet-3.1.jpg) center left no-repeat;
+   }
+   .main-content-section{
+     height: 1580px;
+   }
+
+   .main-content-div-field{
+     height: 530px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+   }
+
+   .main-content-p, .main-content-li{
+     font-size: 90%;
+   }
+   .main-content-title{
+     font-size: 140%;
+   }
+
 
     /* "Burger" menu styles */
 
@@ -309,6 +451,8 @@ ul{
         background-color: #f8f8fc;
         color: #393b43;
     }
+    
+}
     
 
 
