@@ -14,6 +14,12 @@ body{
   background: linear-gradient(to right, rgba(192, 8, 24, 1.0) 2%, rgba(57, 59, 67, 0.0)10%,rgba(57, 59, 67, 0.0) 90%,rgba(192, 8, 24, 1.0) 98%);
 }
 
+.footer{
+  background-color: #393b43;
+  color: #f8f8fc;
+  background: linear-gradient(to right, rgba(192, 8, 24, 1.0) 2%, rgba(57, 59, 67, 1.0)10%,rgba(57, 59, 67, 1.0) 90%,rgba(192, 8, 24, 1.0) 98%);
+}
+
 /* Navbar and header styles */
 
 .main-logo{
@@ -89,6 +95,54 @@ body{
   top: 350px;
   left: 100px;
   position: absolute;
+}
+
+/* footer section  */
+
+.footer{
+  font-family: 'Concert One', cursive;
+  font-size: 90%;
+}
+
+#footer-content{
+  margin: 0 auto;
+  width: 85%;
+}
+
+
+
+
+
+.col-md-4{
+  padding: 10px 5px 10px 5px;
+}
+
+#copyright{
+  color: #f8f8fc;
+  font-size: 120%;
+  margin-left: 250px;
+  padding-bottom: 15px;
+}
+
+.social-media-links li a i {
+    width: 40px;
+    height: 40px;
+    padding: 16px 0;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 8px;
+    text-align: center;
+    color: #393B43;
+    background: #f8f8fc;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-media-links li a i:hover {
+    background: #393B43;
+    color: #f8f8fc;
 }
 
 
