@@ -571,5 +571,15 @@ ul{
   .main-image{
     background-position: 65% 50%;
   }
+  #main-image-frame{
+      height: 575px;
+  }
+  .navbar-expand-xl{
+      height: 75px;
+  }
+  #main-nav-container{
+      margin-left: 70px;
+      margin-right: 70px;
+  }
 
 }

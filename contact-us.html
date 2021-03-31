@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
   </head>
+  
   <body>
-
+    
     <header id="main-image-frame">
       <div class="main-image">
         <nav class="navbar navbar-light">
@@ -20,9 +21,9 @@
             </a>
           </div>
           <button class="navbar-toggler" type="button">
-          <i class="fas fa-bars"></i>
-          <i class="far fa-window-close" style="display: none"></i>
-        </button>
+            <i class="fas fa-bars"></i>
+            <i class="far fa-window-close" style="display: none"></i>
+          </button>
         </nav>
       </div>
       <a href="contact-us.html">
@@ -33,7 +34,7 @@
 
       <nav class="navbar navbar-expand-xl">
         <div class="container-fluid" id="main-nav-container">
-          <div class="navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-collapse">
             <div class="navbar-nav">
               <a class="nav-link" href="index.html">Home</a>
               <a class="nav-link" href="services.html">Services</a>
@@ -43,123 +44,122 @@
           </div>
         </div>
       </nav>
-
-
-
     </header>
+
     <section class="main-content-section" id="contact-section">
+
       <div class="main-content-div-field" id="contact-middle">
         <div class="description-div  upper-div" id="contact-middle-div" >
           <h4 class="main-content-title">Request pricing</h4>
-          <form id="price-request-form" method="POST">
-            <div class="mb-3">
-              <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control" id="name" name="name" required>
-            </div>
-            <div class="mb-3">
-              <label for="company" class="form-label">Company</label>
-              <input type="text" class="form-control" id="name" name="company">
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="email" name="email_adress" required>
-            </div>
-            <div class="mb-3">
-              <label for="phone-number" class="form-label">Phone number</label>
-              <input type="text" class="form-control" id="phone-number" name="phone_number">
-            </div>
-            <div class="mb-3">
-              <label for="loading-adress" class="form-label">Loading Adress</label>
-              <input type="text" class="form-control" id="loading-adress" name="l_adress" required>
-            </div>
-            <div class="mb-3">
-              <label for="unloading-adress" class="form-label">Unloading Adress</label>
-              <input type="text" class="form-control" id="unloading-adress" name="unl_adress" required>
-            </div>
-            <div class="mb-3">
-              <label for="loading-date" class="form-label">Loading Date</label>
-              <input type="date" class="form-control" id="loading-date" name="l_date" required>
-            </div>
-            <div class="mb-3">
-              <label for="unloading-date" class="form-label">Unloading Date</label>
-              <input type="date" class="form-control" id="unloading-date" name="unl_date" required>
-            </div>
-            <div class="mb-3">
-              <label for="volume" class="form-label">Volume</label>
-              <input type="text" class="form-control" id="volume" name="volume" required>
-            </div>
-            <div class="mb-3">
-              <label for="weight" class="form-label">Weight</label>
-              <input type="text" class="form-control" id="weight" name="weight" required>
-            </div>
-            <div class="mb-3">
-              <label for="notes" class="form-label">Notes</label>
-              <textarea type="textfield" class="form-control" id="notes" name="notes"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary" id="request-btn">Request Price</button>
-          </form>
-
+            <form id="price-request-form" method="POST">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+              </div>
+              <div class="mb-3">
+                <label for="company" class="form-label">Company</label>
+                <input type="text" class="form-control" id="name" name="company">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" name="email_adress" required>
+              </div>
+              <div class="mb-3">
+                <label for="phone-number" class="form-label">Phone number</label>
+                <input type="text" class="form-control" id="phone-number" name="phone_number">
+              </div>
+              <div class="mb-3">
+                <label for="loading-adress" class="form-label">Loading Adress</label>
+                <input type="text" class="form-control" id="loading-adress" name="l_adress" required>
+              </div>
+              <div class="mb-3">
+                <label for="unloading-adress" class="form-label">Unloading Adress</label>
+                <input type="text" class="form-control" id="unloading-adress" name="unl_adress" required>
+              </div>
+              <div class="mb-3">
+                <label for="loading-date" class="form-label">Loading Date</label>
+                <input type="date" class="form-control" id="loading-date" name="l_date" required>
+              </div>
+              <div class="mb-3">
+                <label for="unloading-date" class="form-label">Unloading Date</label>
+                <input type="date" class="form-control" id="unloading-date" name="unl_date" required>
+              </div>
+              <div class="mb-3">
+                <label for="volume" class="form-label">Volume</label>
+                <input type="text" class="form-control" id="volume" name="volume" required>
+              </div>
+              <div class="mb-3">
+                <label for="weight" class="form-label">Weight</label>
+                <input type="text" class="form-control" id="weight" name="weight" required>
+              </div>
+              <div class="mb-3">
+                <label for="notes" class="form-label">Notes</label>
+                <textarea type="textfield" class="form-control" id="notes" name="notes"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" id="request-btn">Request Price</button>
+            </form>
         </div>
       </div>
+      
     </section>
-    <footer class="container-fluid footer">
-    <div class="footer-wrapper">
-    <div id="footer-content" class="row">
-        <div class="col-md-4">
-            <h4 class="footer-title">Visit Us</h4>
 
+    <footer class="container-fluid footer">
+      <div class="footer-wrapper">
+        <div id="footer-content" class="row">
+          <div class="col-md-4">
+            <h4 class="footer-title">Visit Us</h4>
             <h5>Zandbergen Transport</h5>
-            <p>Rijksweg 107<br>
+              <p>Rijksweg 107<br>
               1906 BG Limmen<br><br>
               Postadres: <br>
               Postbus 36<br>
               1906 ZG Limmen<br>
-            </p>
-        </div>
-        <div class="col-md-4">
+              </p>
+          </div>
+          <div class="col-md-4">
             <h4 class="footer-title">Call Us</h4>
               <p>+31 (0) 72 505 70 50</p><br>
             <h4 class="footer-title">Write Us</h4>
               <p>info@zandbergentransport.nl</p>
-        </div>
-        <div class="col-md-4">
+          </div>
+          <div class="col-md-4">
             <h4>Follow Us</h4>
-            <ul class="list-inline social-media-links">
+              <ul class="list-inline social-media-links">
                 <li class="list-inline-item">
-                    <a href="https://www.facebook.com/zandbergen.transport" target="_blank">
-                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                        <span class="sr-only">Facebook</span>
-                    </a>
+                  <a href="https://www.facebook.com/zandbergen.transport" target="_blank">
+                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                      <span class="sr-only">Facebook</span>
+                  </a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="https://twitter.com/Zandbergen_T" target="_blank">
-                        <i class="fab fa-twitter" aria-hidden="true"></i>
-                        <span class="sr-only">Twitter</span>
-                    </a>
+                  <a href="https://twitter.com/Zandbergen_T" target="_blank">
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                      <span class="sr-only">Twitter</span>
+                  </a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="https://www.linkedin.com/company/zandbergen's-transport/" target="_blank">
-                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                        <span class="sr-only">Linkedin</span>
-                    </a>
+                  <a href="https://www.linkedin.com/company/zandbergen's-transport/" target="_blank">
+                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                      <span class="sr-only">Linkedin</span>
+                  </a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="https://www.instagram.com/zandbergentransport/" target="_blank">
-                        <i class="fab fa-instagram" aria-hidden="true"></i>
-                        <span class="sr-only">Instagram</span>
-                    </a>
+                  <a href="https://www.instagram.com/zandbergentransport/" target="_blank">
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                      <span class="sr-only">Instagram</span>
+                  </a>
                 </li>
-            </ul>
+              </ul>
+          </div>
         </div>
-    </div>
-    </div>
-    <div id="copyright">
-      <i class="far fa-copyright" aria-hidden="true"> MKX 2021</i>
-    </div>
+      </div>
+      <div id="copyright">
+        <i class="far fa-copyright" aria-hidden="true"> MKX 2021</i>
+      </div>
 
-</footer>
-<script src="assets/myScript.js">
-</script>
+    </footer>
 
+    <script src="assets/myScript.js">
+    </script>
   </body>
 </html>
