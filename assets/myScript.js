@@ -1,5 +1,3 @@
-console.log("Success");
-
 let menu = document.querySelector(".navbar-nav");
 let menuBtn = document.querySelector(".navbar-toggler");
 let closeIcon = document.querySelector(".fa-window-close");
