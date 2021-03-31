@@ -51,7 +51,7 @@
       <div class="main-content-div-field" id="contact-middle">
         <div class="description-div  upper-div" id="contact-middle-div" >
           <h4 class="main-content-title">Request pricing</h4>
-          <form id="price-request-form">
+          <form id="price-request-form" method="POST">
             <div class="mb-3">
               <label for="name" class="form-label">Name</label>
               <input type="text" class="form-control" id="name" name="name" required>
@@ -96,7 +96,7 @@
               <label for="notes" class="form-label">Notes</label>
               <textarea type="textfield" class="form-control" id="notes" name="notes"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Request Price</button>
+            <button type="submit" class="btn btn-primary" id="request-btn">Request Price</button>
           </form>
 
         </div>

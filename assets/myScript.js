@@ -23,11 +23,3 @@ function displayMenu(){
         mainNavFrame.style.display = "block";
     }
 }
-
-let navLinks = document.querySelectorAll(".item");
-
-navLinks.forEach(
-    function(item) {
-        item.addEventListener("click", displayMenu);
-    }
-)
