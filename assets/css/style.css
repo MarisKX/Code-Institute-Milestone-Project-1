@@ -238,6 +238,24 @@ ul{
 }
 
 
+/* Thank You page */
+
+.thank-you-page{
+  width: 100%;
+  height: 300px;
+  color: #393b43;
+  background: linear-gradient(to right, rgba(57, 59, 67, 1.0) 0%, rgba(248, 248, 252, 1.0)10%,rgba(248, 248, 252, 1.0) 90%,rgba(57, 59, 67, 1.0) 100%);
+}
+.thank-you{
+    margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+.thank-you-message{
+  padding-top: 5vh;
+}
+
+
 /* footer section  */
 
 .footer{
@@ -450,6 +468,11 @@ ul{
     margin-top: 0px;
     margin-bottom: 0px;
   }
+  .thank-you-page{
+    height: 600px;
+    background: linear-gradient(to right, rgba(248, 248, 252, 1.0) 40%, rgba(248, 248, 252, 0.2)45%, rgba(248, 248, 252, 0.2)55%, rgba(248, 248, 252, 1.0) 60%),
+                 url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/fleet-3.jpg) center center no-repeat;
+   }
 }
 
 /* active on tablets and/or mobile */
