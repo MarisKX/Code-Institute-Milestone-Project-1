@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Concert+One&display=swap');
 
+/* general styles and colors */
+
 body{
   font-family: 'Arvo', serif;
 }
@@ -18,7 +20,8 @@ body{
   background: linear-gradient(to right, rgba(192, 8, 24, 1.0) 2%, rgba(57, 59, 67, 1.0)10%,rgba(57, 59, 67, 1.0) 90%,rgba(192, 8, 24, 1.0) 98%);
 }
 
-/* Navbar and header styles */
+
+/* navbar and header styles */
 
 .main-logo{
   margin: 10px 55px 10px 25px;
@@ -76,10 +79,18 @@ body{
   margin-right: 80px;
 }
 
+
 .navbar-nav{
   height: inherit;
 }
 
+.navbar-toggler{
+  color: white;
+}
+
+#navbarNavAltMarkup{
+  height: 100%;
+}
 
 #company-moto{
   font-size: 130%;
@@ -220,6 +231,10 @@ ul{
   margin-bottom: 35px;
 }
 
+
+
+
+
 /* footer section  */
 
 .footer{
@@ -269,11 +284,13 @@ ul{
 }
 
 
-/* Responsive styles */
+/* responsive styles */
 
-/* Active on MOBILE devices */
 
-@media only screen and (max-width: 780px){
+/* active on mobile devices */
+
+@media only screen and (max-width: 780px)
+{
   .navbar-toggler {
     position: absolute;
     top: .75em;
@@ -284,6 +301,7 @@ ul{
    }
    #main-nav-container{
      display: none;
+     width: 100%;
      margin-left: 0;
      margin-right: 0;
    }
@@ -314,8 +332,9 @@ ul{
      right: 5px;
      top: 280px;
      padding: 0px 10px 0px 5px;
-    }
-    #copyright{
+
+   }
+   #copyright{
      margin-left: 45px;
    }
    .upper-div{
@@ -369,10 +388,12 @@ ul{
    }
    #fleet-lower{
      background: linear-gradient(to right, rgba(248, 248, 252, 0.8) 0%, rgba(248, 248, 252, 0.8)50%, rgba(248, 248, 252, 0.8) 100%),
-                 url(hhttps://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/fleet-3.jpg) center left no-repeat;
+                 url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/fleet-3.jpg) center left no-repeat;
    }
+
+
    .main-content-section{
-     height: 1590px;
+     height: 1580px;
    }
 
    .main-content-div-field{
@@ -388,74 +409,42 @@ ul{
      font-size: 140%;
    }
 
+   #contact-middle-div{
+     height: inherit;
+     width: 80%;
+     margin: 0 auto;
+     float: none;
+   }
 
-    /* "Burger" menu styles */
+   .show-menu{
+     float: right;
+     font-size: 70%;
+     margin-top: -350px;
+   }
 
-    .fa-window-close{
-     display: none;
-    }
+   .nav-link{
+     background-color: #393b43;
+     margin-top: -5px;
+     border-top: solid #f8f8fc 2px;
+     border-right: solid #f8f8fc 2px;
+   }
 
-    .show-menu {
-    float: right;
-    width: 25vh;
-    height: 20vh;
-    background: #393b43;
-    border-radius: 5px;
-    color: #f8f8fc;
-    transform: translateY(-100%);
-    transition: transform 0.5s;
-    list-style: none;
-    padding-top: 1rem;
-    margin-right: -2vh;
-    margin-top: -18vh;
-    }
-
-    .displayMenu {
-    transform: translateY(0);
-    }
-
-    a {
-    padding: 0;
-    color: #f8f8fc;
-    }
-
-    .item {
-    display: inline;
-    font-size: 1rem;
-    color: #f8f8fc;
-    text-decoration: none;
-    font-weight: 200;
-    line-height: 0.8;
-    }
-
-    .item:hover {
-    text-decoration: none;
-    }   
     .active{
-        background-color: #f8f8fc;
-        color: #393b43;
-    }
-    
-}
-    
-
+     background-color: #f8f8fc;
+   }
 
 }
-/* NOT active only on MOBILE devices */
+
+/* active on tablets&PC */
 
 @media only screen and (min-width: 780px){
   .navbar-toggler{
     display: none;
   }
-  #burger-btn{
-      display: none;
-  }
-  .navbar-nav{
-      flex-direction: row;
-  }
-  }
 
-/* Active ONLY on large screen PC's */
+
+
+/* active ONLY on PC */
 
 @media only screen and (min-width: 2100px){
   #main-nav-container{
@@ -479,7 +468,7 @@ ul{
   }
 }
 
-/* Active on tablets and smaller screens (under 1200px) */
+/* active on tablets and/or mobile */
 
 @media only screen and (max-width: 1200px){
   .navbar-nav{
@@ -523,4 +512,58 @@ ul{
     float: right;
     width: 85%;
   }
+  #home-upper{
+    background: linear-gradient(to right, rgba(57, 59, 67, 0.0) 0%, rgba(57, 59, 67, 0.2)10%,rgba(248, 248, 252, 0.8) 20%,rgba(248, 248, 252, 1.0) 25%),
+                url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/home-1.jpg) center left no-repeat;
+  }
+
+  #home-middle{
+    background: linear-gradient(to left, rgba(57, 59, 67, 0.0) 0%, rgba(57, 59, 67, 0.2)10%,rgba(248, 248, 252, 0.8) 20%,rgba(248, 248, 252, 1.0) 25%),
+                url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/home-2.jpg) center right no-repeat;
+  }
+
+  #home-lower{
+    background: linear-gradient(to right, rgba(57, 59, 67, 0.0) 0%, rgba(57, 59, 67, 0.2)10%,rgba(248, 248, 252, 0.8) 20%,rgba(248, 248, 252, 1.0) 25%),
+                url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/home-3.jpg) center left no-repeat;
+  }
+
+  #services-upper{
+    background: linear-gradient(to right, rgba(57, 59, 67, 0.0) 0%, rgba(57, 59, 67, 0.2)10%,rgba(248, 248, 252, 0.8) 20%,rgba(248, 248, 252, 1.0) 25%),
+                url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/services-1.jpg) center left no-repeat;
+  }
+
+  #services-middle{
+    background: linear-gradient(to left, rgba(57, 59, 67, 0.0) 0%, rgba(57, 59, 67, 0.2)10%,rgba(248, 248, 252, 0.8) 20%,rgba(248, 248, 252, 1.0) 25%),
+                url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/services-2.jpg) center right no-repeat;
+  }
+
+  #services-lower{
+    background: linear-gradient(to right, rgba(57, 59, 67, 0.0) 0%, rgba(57, 59, 67, 0.2)10%,rgba(248, 248, 252, 0.8) 20%,rgba(248, 248, 252, 1.0) 25%),
+                url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/services-3.jpg) center left no-repeat;
+  }
+
+  #fleet-upper{
+    background: linear-gradient(to right, rgba(57, 59, 67, 0.0) 0%, rgba(57, 59, 67, 0.2)10%,rgba(248, 248, 252, 0.8) 20%,rgba(248, 248, 252, 1.0) 25%),
+                url(hhttps://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/fleet-1.jpg) center left no-repeat;
+  }
+
+  #fleet-middle{
+    background: linear-gradient(to left, rgba(57, 59, 67, 0.0) 0%, rgba(57, 59, 67, 0.2)10%,rgba(248, 248, 252, 0.8) 20%,rgba(248, 248, 252, 1.0) 25%),
+                url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/fleet-2.jpg) center right no-repeat;
+  }
+
+  #fleet-lower{
+    background: linear-gradient(to right, rgba(57, 59, 67, 0.0) 0%, rgba(57, 59, 67, 0.2)10%,rgba(248, 248, 252, 0.8) 20%,rgba(248, 248, 252, 1.0) 25%),
+                url(https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/assets/images/fleet-3.jpg) center left no-repeat;
+  }
+  #contact-middle-div{
+    height: inherit;
+    width: 80%;
+    margin: 0 auto;
+    float: none;
+  }
+  .main-image{
+    background-position: 65% 50%;
+  }
+
 }
