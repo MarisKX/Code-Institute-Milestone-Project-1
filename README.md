@@ -30,19 +30,20 @@ All images are set as a background with fading effect in the way they blend with
 
 ### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to find how long they are in bussiness and how experienced they are with service they provide. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+    - As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+    - As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+    - As a First Time Visitor, I want to find how long they are in bussiness and how experienced they are with service they provide. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
 ### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about new services, that fits my needs.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Returning Visitor, I want to request pricing for my next cargo tranportation.
+    - As a Returning Visitor, I want to find information about new services, that fits my needs.
+    - As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+    - As a Returning Visitor, I want to request pricing for my next cargo tranportation.
 
 ### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added services.
-        2. As a Frequent User, I want to easily request pricing and get price offer in my email.
+
+    - As a Frequent User, I want to check to see if there are any newly added services.
+    - As a Frequent User, I want to easily request pricing and get price offer in my email.
 
 ## Wireframes
 
@@ -112,42 +113,42 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. 
-            Above there is a Hero Image with Text and a company moto with phrase "Do You want to know how do we do that?" that links directly to price rwequest form
-        2. The main points are made immediately clear with the hero image representing main service of company - cargo transportation.
+        - Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. 
+          Above there is a Hero Image with Text and a company moto with phrase "Do You want to know how do we do that?" that links directly to price rwequest form
+        - The main points are made immediately clear with the hero image representing main service of company - cargo transportation.
 
-    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+    1. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. At the bottom of all pages there are contact details as well as social media links.
-        3. On the Contact Us Page, after a form is submitted, the page refreshes and the user is brought to the thanks you page confirming, that the form was submitted succesfully.
+        - The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+        - At the bottom of all pages there are contact details as well as social media links.
+        - On the Contact Us Page, after a form is submitted, the page refreshes and the user is brought to the thanks you page confirming, that the form was submitted succesfully.
 
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-        1. Once the new visitor has read the short company history, they can learn more details about services and our fleet.
-        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
+    1. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+        - Once the new visitor has read the short company history, they can learn more details about services and our fleet.
+        - The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
 
 -   #### Returning Visitor Goals
 
     1. As a Returning Visitor, I want to find the information about new services.
 
-        1. Service section as well as fleet section was made flexible, so new content can be added later.
+        - Service section as well as fleet section was made flexible, so new content can be added later.
 
     2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 
-        1. Fast way to navigate to price request is made possible thru moto text link.
-        2. Here they can fill out the form on the page or can contact company by phone number and/or email provided in footer section.
-        3. The footer contains links to the organisations Facebook, Twitter, LinkedIn and Instagram page.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+        - Fast way to navigate to price request is made possible thru moto text link.
+        - Here they can fill out the form on the page or can contact company by phone number and/or email provided in footer section.
+        - The footer contains links to the organisations Facebook, Twitter, LinkedIn and Instagram page.
+        - Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
 
 -   #### Frequent User Goals
 
     1. As a Frequent User, I want to check to see if there are any newly added services.
 
-        1. The user would already be comfortable with the website layout and can easily click the services section.
+        - The user would already be comfortable with the website layout and can easily click the services section.
 
     2. As a Frequent User, I want to easily request pricing and get price offer in my email.
 
-        1. The user would already be comfortable with website layout to easily navigate to price request page using moto text link or by clicking on contact section.
+        - The user would already be comfortable with website layout to easily navigate to price request page using moto text link or by clicking on contact section.
 
 
 #### Known bugs
