@@ -30,10 +30,10 @@ All images are set as a background with fading effect in the way they blend with
 
 While the finished website slightry varies from initial wireframes, the main structure and idea stays the same:
 
-- Home page - [View](https://github.com/MarisKX/Code-Institute-Milestone-Project-1/blob/master/documentation/Home.pdf)
-- Services page - [View](https://github.com/MarisKX/Code-Institute-Milestone-Project-1/blob/master/documentation/Services-section.pdf)
-- Fleet page - [View](https://github.com/MarisKX/Code-Institute-Milestone-Project-1/blob/master/documentation/Fleet-section.pdf)
-- Contact us (price request) - [View](https://github.com/MarisKX/Code-Institute-Milestone-Project-1/blob/master/documentation/Contact-section.pdf)
+- Home page - [View](https://github.com/MarisKX/Code-Institute-Milestone-Project-1/blob/master/documentation/wireframes/Home.pdf)
+- Services page - [View](https://github.com/MarisKX/Code-Institute-Milestone-Project-1/blob/master/documentation/wireframes/Services-section.pdf)
+- Fleet page - [View](https://github.com/MarisKX/Code-Institute-Milestone-Project-1/blob/master/documentation/wireframes/Fleet-section.pdf)
+- Contact us (price request) - [View](https://github.com/MarisKX/Code-Institute-Milestone-Project-1/blob/master/documentation/wireframes/Contact-section.pdf)
 
 #### Features 
 - Responsive on all device sizes (made up in 4 steps):
@@ -73,8 +73,11 @@ While the finished website slightry varies from initial wireframes, the main str
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 - [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
-    - [Home]()
-    - [Services]()
+    - [Home](https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/documentation/validation/Home.png)
+    - [Services](https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/documentation/validation/Services.png)
+    - [Fleet](https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/documentation/validation/Fleet.png)
+    - [Contact](https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/documentation/validation/Contact.png)
+    - [ThankYou](https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-1/master/documentation/validation/ThankYou.png)
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 ##### Futher Testing (after depleoyment)
