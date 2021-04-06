@@ -109,7 +109,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Testing User Stories from User Experience (UX) Section
 
--   #### First Time Visitor Goals
+#### First Time Visitor Goals
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
@@ -117,17 +117,17 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
           Above there is a Hero Image with Text and a company moto with phrase "Do You want to know how do we do that?" that links directly to price rwequest form
         - The main points are made immediately clear with the hero image representing main service of company - cargo transportation.
 
-    1. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
         - The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
         - At the bottom of all pages there are contact details as well as social media links.
         - On the Contact Us Page, after a form is submitted, the page refreshes and the user is brought to the thanks you page confirming, that the form was submitted succesfully.
 
-    1. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
         - Once the new visitor has read the short company history, they can learn more details about services and our fleet.
         - The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
 
--   #### Returning Visitor Goals
+#### Returning Visitor Goals
 
     1. As a Returning Visitor, I want to find the information about new services.
 
@@ -140,7 +140,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         - The footer contains links to the organisations Facebook, Twitter, LinkedIn and Instagram page.
         - Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
 
--   #### Frequent User Goals
+#### Frequent User Goals
 
     1. As a Frequent User, I want to check to see if there are any newly added services.
 
