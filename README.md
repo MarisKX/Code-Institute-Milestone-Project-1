@@ -30,10 +30,10 @@ All images are set as a background with fading effect in the way they blend with
 
 While the finished website slightry varies from initial wireframes, the main structure and idea stays the same:
 
-- Home page - [View](https://github.com/MarisKX/Code-Institute-Milestone-Project-1/blob/master/assets/wireframes/Home.pdf)
-- Services page - [View](https://github.com/MarisKX/Code-Institute-Milestone-Project-1/blob/master/assets/wireframes/Services-section.pdf)
-- Fleet page - [View](https://github.com/MarisKX/Code-Institute-Milestone-Project-1/blob/master/assets/wireframes/Fleet-section.pdf)
-- Contact us (price request) - [View](https://github.com/MarisKX/Code-Institute-Milestone-Project-1/blob/master/assets/wireframes/Contact-section.pdf)
+- Home page - [View](https://github.com/MarisKX/Code-Institute-Milestone-Project-1/blob/master/documentation/Home.pdf)
+- Services page - [View](https://github.com/MarisKX/Code-Institute-Milestone-Project-1/blob/master/documentation/Services-section.pdf)
+- Fleet page - [View](https://github.com/MarisKX/Code-Institute-Milestone-Project-1/blob/master/documentation/Fleet-section.pdf)
+- Contact us (price request) - [View](https://github.com/MarisKX/Code-Institute-Milestone-Project-1/blob/master/documentation/Contact-section.pdf)
 
 #### Features 
 - Responsive on all device sizes (made up in 4 steps):
@@ -73,6 +73,8 @@ While the finished website slightry varies from initial wireframes, the main str
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 - [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
+    - [Home]()
+    - [Services]()
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 ##### Futher Testing (after depleoyment)

@@ -104,6 +104,9 @@ body {
   left: 100px;
   position: absolute;
 }
+.fa-window-close {
+  display: none;
+}
 
 
 /*  Main content area  */
